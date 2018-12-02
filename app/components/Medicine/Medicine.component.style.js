@@ -3,11 +3,10 @@ import theme from '../../styles/theme.style';
 
 const styles = StyleSheet.create({
     input: {
-        marginHorizontal: 20,
-        height: 50,
-        borderColor: 'gray',
-        borderWidth: 1,
+        borderColor: theme.PRIMARY_COLOR,
+        borderBottomWidth: 1,
         fontSize: 20,
+        marginBottom: 20,
     },
     button: {
        alignItems: 'center',
@@ -35,7 +34,12 @@ const styles = StyleSheet.create({
     label: {
         fontSize: 20,
         marginHorizontal: 20,
-    }
+    },
+    container: {
+        flex: 1,
+        backgroundColor: '#f4f7f9',
+        paddingTop: 30,
+    },
 });
 
 export default styles;
